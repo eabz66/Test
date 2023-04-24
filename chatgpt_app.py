@@ -8,7 +8,7 @@ st.title("Creating a front end to ChatGPT using Streamlit - Eduardo Bistrain")
 st.sidebar.image('./jpmchase.png', width=100)
 st.sidebar.header("Instructions")
 st.sidebar.info(
-    '''This is a test web application that serves as a front end to ChatGPT.
+    '''This is a test web application that serves as a front end to ChatGPT.\n
        Enter a **query** in the **text boxes** and **press enter** to receive 
        a **response**.
        '''
