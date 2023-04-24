@@ -3,8 +3,9 @@ import openai
 from youtube_transcript_api import YouTubeTranscriptApi
 from streamlit_chat import message
 
-st.title("Test with streamlit - Eduardo Bistrain")
-st.sidebar.image('https://clipground.com/images/miami-dade-college-logo-7.png', width=100)
+st.title("Creating a front end to ChatGPT using Streamlit - Eduardo Bistrain")
+#st.sidebar.image('https://clipground.com/images/miami-dade-college-logo-7.png', width=100)
+st.sidebar.image('./jpmchase.png', width=100)
 st.sidebar.header("Instructions")
 st.sidebar.info(
     '''This is a web application that serves as a Teaching Assistant for Dr. Ernesto Lee.
